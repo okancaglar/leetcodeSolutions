@@ -42,9 +42,4 @@ public class RomanToInteger {
 
      */
 
-    public static void main(String[] args) {
-        RomanToInteger test = new RomanToInteger();
-        int result = test.romanToInt("III");
-        System.out.println(result);
-    }
 }

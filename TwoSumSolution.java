@@ -26,14 +26,5 @@ public class TwoSumSolution {
         return answ;
     }
 
-    public static void main(String[] args) {
-        TwoSumSolution test = new TwoSumSolution();
-        int[] result = test.towSum(new int[]{2,7,11,15}, 17);
-        System.out.println("[" + result[0] + "," + result[1] + "]");
-        System.out.println();
-        long start = System.currentTimeMillis();
-        int[] r2 = test.twoSumHashMap(new int[]{2,7,11,15},17);
-        long end = System.currentTimeMillis();
-        System.out.println("[" + result[0] + "," + result[1] + "]" + "  runtime:" + (end-start));
-    }
+
 }

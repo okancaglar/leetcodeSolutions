@@ -28,11 +28,6 @@ public class AddBinary {
         return sol;
     }
 
-    public static void main(String[] args) {
-        AddBinary test = new AddBinary();
-        System.out.println(test.addBinary("11","1"));
-    }
-
     /* ALTERNATE SOLUTION
     public String addBinary(String a, String b) {
         StringBuilder output = new StringBuilder();

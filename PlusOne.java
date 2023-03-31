@@ -36,14 +36,7 @@ public class PlusOne {
             return digits;
     }
 
-    public static void main(String[] args) {
-        PlusOne test = new PlusOne();
-        int[] test1Case = test.plusOne(new int[]{9,9});
-        for (int a:
-             test1Case) {
-            System.out.print(a);
-        }
-    }
+
     /*
     public int[] plusOne(int[] digits) {
         for (int i = digits.length - 1; i >= 0; i--) {

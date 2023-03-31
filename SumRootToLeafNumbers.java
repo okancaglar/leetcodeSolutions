@@ -20,16 +20,7 @@ public class SumRootToLeafNumbers {
         return Integer.parseInt(num + String.valueOf(root.val));
     }
 
-    public static void main(String[] args) {
-        SumRootToLeafNumbers test = new SumRootToLeafNumbers();
-        TreeNode testTree = new TreeNode();
-        testTree = new TreeNode(4);
-        testTree.left = new TreeNode(9);
-        testTree.left.left = new TreeNode(5);
-        testTree.left.right = new TreeNode(1);
-        testTree.right = new TreeNode(0);
-        System.out.println(test.sumNumbers(testTree));
-    }
+
 
 
     /* ALTERNATE SOLUTION

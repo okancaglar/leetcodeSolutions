@@ -17,10 +17,7 @@ public class FirstOccurrence {
         return -1;
     }
 
-    public static void main(String[] args) {
-        FirstOccurrence test = new FirstOccurrence();
-        System.out.println(test.strStr("sadbutsad","a"));
-    }
+
     /* ALTERNATE SOLUTION
 
       public int strStr(String haystack, String needle) {

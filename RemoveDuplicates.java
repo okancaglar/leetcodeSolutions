@@ -9,9 +9,5 @@ public class RemoveDuplicates {
         return i + 1;
     }
 
-    public static void main(String[] args) {
-        RemoveDuplicates test = new RemoveDuplicates();
-        int[] testA = {1};
-        System.out.println(test.removeDuplicates(testA));
-    }
+
 }

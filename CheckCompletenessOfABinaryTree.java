@@ -25,19 +25,7 @@ public class CheckCompletenessOfABinaryTree {
         return 0;
     }
 
-    public static void main(String[] args) {
-        CheckCompletenessOfABinaryTree test = new CheckCompletenessOfABinaryTree();
-        TreeNode testTree = new TreeNode();
-        testTree = new TreeNode(4);
-        testTree.left = new TreeNode(9);
-        //testTree.left.left = new TreeNode(5);
-        testTree.left.right = new TreeNode(1);
-        testTree.right = new TreeNode(0);
-        System.out.println(test.isComplete(testTree));
 
-
-
-    }
 
     /*ALTERNATE SOLUTION
     * public boolean isCompleteTree(TreeNode root) {

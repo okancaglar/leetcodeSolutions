@@ -38,6 +38,5 @@ public class MergeTwoSortedList {
         return sol;
     }
 
-    public static void main(String[] args) {
-    }
+
 }

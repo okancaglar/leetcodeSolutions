@@ -22,17 +22,4 @@ public class AddTwoNumMedium {
         }
         return answ;
     }
-
-
-
-    public static void main(String[] args) {
-        AddTwoNumMedium test = new AddTwoNumMedium();
-        ListNode l1 = new ListNode(2,new ListNode(4,new ListNode(3)));
-        ListNode l2 = new ListNode(5,new ListNode(6,new ListNode(4)));
-        ListNode answ = test.addTwoNumbers(l1,l2);
-        while (answ.next!=null){
-            System.out.print(answ.val);
-            answ = answ.next;
-        }
-    }
 }

@@ -21,10 +21,6 @@ public class ValidParentheses {
         return false;
     }
 
-    public static void main(String[] args) {
-        ValidParentheses test = new ValidParentheses();
-        System.out.println(test.solution("[{}]"));
-    }
 
 
 

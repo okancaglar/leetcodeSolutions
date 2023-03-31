@@ -9,10 +9,7 @@ public class SearchInsert {
         }return i;
     }
 
-    public static void main(String[] args) {
-        SearchInsert test = new SearchInsert();
-        System.out.println(test.searchInsert(new int[]{1,3,5,6}, 7));
-    }
+
 
     /* ANOTHER SOLUTION O(logn) time complexity
     public int searchInsert(int[] arr, int target) {

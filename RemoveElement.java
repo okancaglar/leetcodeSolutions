@@ -16,8 +16,5 @@ public class RemoveElement {
         return solution;
     }
 
-    public static void main(String[] args) {
-        RemoveElement test = new RemoveElement();
-        System.out.println(test.removeElement(new int[] {0,1,2,2,3,0,4,2}, 2));
-    }
+
 }

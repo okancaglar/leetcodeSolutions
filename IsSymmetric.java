@@ -39,22 +39,6 @@ public class IsSymmetric {
         return true;
     }
 
-    public static void main(String[] args) {
-        IsSymmetric test = new IsSymmetric();
-        TreeNode deneme = new TreeNode();
-        deneme = new TreeNode(5);
-        deneme.left = new TreeNode(4);
-        deneme.right = new TreeNode(1);
-        //deneme.left.left = new TreeNode(2);
-        deneme.left.right = new TreeNode(1);
-        //deneme.right.left = new TreeNode(2);
-        deneme.right.right = new TreeNode(4);
-        deneme.left.right.left = new TreeNode(2);
-        deneme.right.right.left = new TreeNode(2);
-        System.out.println(test.isSymmetric(deneme));
-
-
-    }
     /* ALTERNATE SOLUTION!!
     public boolean isSymmetric(TreeNode root) {
         if (root == null) {
